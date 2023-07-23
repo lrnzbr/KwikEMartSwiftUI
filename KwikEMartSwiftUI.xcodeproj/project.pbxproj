@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB531DBC2A6CA172006C35A5 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531DBB2A6CA172006C35A5 /* ProductListView.swift */; };
+		EB531DBF2A6CB64A006C35A5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531DBE2A6CB64A006C35A5 /* Product.swift */; };
 		EBCF465F2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF465E2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift */; };
-		EBCF46612A60C9B600FA03B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF46602A60C9B600FA03B4 /* ContentView.swift */; };
+		EBCF46612A60C9B600FA03B4 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF46602A60C9B600FA03B4 /* ProductCard.swift */; };
 		EBCF46632A60C9B600FA03B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCF46622A60C9B600FA03B4 /* Assets.xcassets */; };
 		EBCF46672A60C9B600FA03B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCF46662A60C9B600FA03B4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB531DBB2A6CA172006C35A5 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		EB531DBE2A6CB64A006C35A5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		EBCF465B2A60C9B600FA03B4 /* KwikEMartSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikEMartSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCF465E2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwikEMartSwiftUIApp.swift; sourceTree = "<group>"; };
-		EBCF46602A60C9B600FA03B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBCF46602A60C9B600FA03B4 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		EBCF46622A60C9B600FA03B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBCF46642A60C9B600FA03B4 /* KwikEMartSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KwikEMartSwiftUI.entitlements; sourceTree = "<group>"; };
 		EBCF46662A60C9B600FA03B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -33,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB531DBD2A6CB63B006C35A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB531DBE2A6CB64A006C35A5 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EBCF46522A60C9B600FA03B4 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +64,10 @@
 		EBCF465D2A60C9B600FA03B4 /* KwikEMartSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EB531DBD2A6CB63B006C35A5 /* Model */,
 				EBCF465E2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift */,
-				EBCF46602A60C9B600FA03B4 /* ContentView.swift */,
+				EBCF46602A60C9B600FA03B4 /* ProductCard.swift */,
+				EB531DBB2A6CA172006C35A5 /* ProductListView.swift */,
 				EBCF46622A60C9B600FA03B4 /* Assets.xcassets */,
 				EBCF46642A60C9B600FA03B4 /* KwikEMartSwiftUI.entitlements */,
 				EBCF46652A60C9B600FA03B4 /* Preview Content */,
@@ -139,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBCF46612A60C9B600FA03B4 /* ContentView.swift in Sources */,
+				EB531DBC2A6CA172006C35A5 /* ProductListView.swift in Sources */,
+				EB531DBF2A6CB64A006C35A5 /* Product.swift in Sources */,
+				EBCF46612A60C9B600FA03B4 /* ProductCard.swift in Sources */,
 				EBCF465F2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
