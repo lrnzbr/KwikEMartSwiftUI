@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct KwikEMartSwiftUIApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ProductListView()
+            HomeView()
         }
     }
 }

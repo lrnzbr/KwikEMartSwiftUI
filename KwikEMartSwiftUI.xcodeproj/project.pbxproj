@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB499E2E2A831D13000BA308 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB499E2D2A831D13000BA308 /* HomeView.swift */; };
+		EB499E302A831F37000BA308 /* TabletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB499E2F2A831F37000BA308 /* TabletView.swift */; };
+		EB499E322A831F3E000BA308 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB499E312A831F3E000BA308 /* PhoneView.swift */; };
+		EB499E342A8320EE000BA308 /* ShoppingCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB499E332A8320EE000BA308 /* ShoppingCartView.swift */; };
 		EB531DBC2A6CA172006C35A5 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531DBB2A6CA172006C35A5 /* ProductListView.swift */; };
 		EB531DBF2A6CB64A006C35A5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531DBE2A6CB64A006C35A5 /* Product.swift */; };
 		EBCF465F2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF465E2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB499E2D2A831D13000BA308 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EB499E2F2A831F37000BA308 /* TabletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletView.swift; sourceTree = "<group>"; };
+		EB499E312A831F3E000BA308 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		EB499E332A8320EE000BA308 /* ShoppingCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartView.swift; sourceTree = "<group>"; };
 		EB531DBB2A6CA172006C35A5 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		EB531DBE2A6CB64A006C35A5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		EBCF465B2A60C9B600FA03B4 /* KwikEMartSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikEMartSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +76,10 @@
 				EBCF465E2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift */,
 				EBCF46602A60C9B600FA03B4 /* ProductCard.swift */,
 				EB531DBB2A6CA172006C35A5 /* ProductListView.swift */,
+				EB499E2D2A831D13000BA308 /* HomeView.swift */,
+				EB499E2F2A831F37000BA308 /* TabletView.swift */,
+				EB499E332A8320EE000BA308 /* ShoppingCartView.swift */,
+				EB499E312A831F3E000BA308 /* PhoneView.swift */,
 				EBCF46622A60C9B600FA03B4 /* Assets.xcassets */,
 				EBCF46642A60C9B600FA03B4 /* KwikEMartSwiftUI.entitlements */,
 				EBCF46652A60C9B600FA03B4 /* Preview Content */,
@@ -156,6 +168,10 @@
 				EB531DBC2A6CA172006C35A5 /* ProductListView.swift in Sources */,
 				EB531DBF2A6CB64A006C35A5 /* Product.swift in Sources */,
 				EBCF46612A60C9B600FA03B4 /* ProductCard.swift in Sources */,
+				EB499E322A831F3E000BA308 /* PhoneView.swift in Sources */,
+				EB499E2E2A831D13000BA308 /* HomeView.swift in Sources */,
+				EB499E302A831F37000BA308 /* TabletView.swift in Sources */,
+				EB499E342A8320EE000BA308 /* ShoppingCartView.swift in Sources */,
 				EBCF465F2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
