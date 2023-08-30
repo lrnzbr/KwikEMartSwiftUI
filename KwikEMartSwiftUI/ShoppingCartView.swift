@@ -10,7 +10,11 @@ import SwiftUI
 struct ShoppingCartView: View {
     var body: some View {
         VStack{
-            Text("Shopping Cart")
+            List {
+                ShoppingCartCell()
+                ShoppingCartCell()
+                ShoppingCartCell()
+            }
             Button("Checkout"){}
         }
     }
