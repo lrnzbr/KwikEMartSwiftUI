@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct ShoppingCartCell: View {
+    @ObservedObject var shoppingCartViewModel = ShoppingCardViewModel.shared
+    var product: Product
     var body: some View {
         HStack{
-            Image("buzzCola")
+            Image(product.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 40, height: 40)
                 .cornerRadius(15)
-            Text("Buzz Cola")
-            Text("3 @ $1.99")
+            Text(product.title)
+            Text("\(shoppingCartViewModel.shoppingCart[product.id] ?? 1)" + "@" + "\(product.price)")
             Spacer()
-            Text("$5.97")
+            Text("\(product.price * Double(shoppingCartViewModel.shoppingCart[product.id] ?? 1))")
         }
     }
 }
 
 struct ShoppingCartCell_Previews: PreviewProvider {
     static var previews: some View {
-        ShoppingCartCell()
+        ShoppingCartCell(product: products[0])
     }
 }

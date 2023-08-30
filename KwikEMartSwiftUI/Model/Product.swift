@@ -8,6 +8,7 @@
 import Foundation
 
 struct Product : Hashable {
+    var id = UUID().uuidString
     var title: String
     var image: String
     var price: Double

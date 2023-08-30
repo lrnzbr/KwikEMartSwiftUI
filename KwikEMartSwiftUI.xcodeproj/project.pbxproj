@@ -15,6 +15,7 @@
 		EB531DBF2A6CB64A006C35A5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531DBE2A6CB64A006C35A5 /* Product.swift */; };
 		EB53BF0E2A9ECCDF00515ABA /* ShoppingCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53BF0D2A9ECCDF00515ABA /* ShoppingCartCell.swift */; };
 		EB53BF102A9ECFED00515ABA /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53BF0F2A9ECFED00515ABA /* ProductDetailView.swift */; };
+		EB53BF132A9ED70500515ABA /* ShoppingCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53BF122A9ED70500515ABA /* ShoppingCartViewModel.swift */; };
 		EBCF465F2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF465E2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift */; };
 		EBCF46612A60C9B600FA03B4 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF46602A60C9B600FA03B4 /* ProductCard.swift */; };
 		EBCF46632A60C9B600FA03B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCF46622A60C9B600FA03B4 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		EB531DBE2A6CB64A006C35A5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		EB53BF0D2A9ECCDF00515ABA /* ShoppingCartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartCell.swift; sourceTree = "<group>"; };
 		EB53BF0F2A9ECFED00515ABA /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		EB53BF122A9ED70500515ABA /* ShoppingCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewModel.swift; sourceTree = "<group>"; };
 		EBCF465B2A60C9B600FA03B4 /* KwikEMartSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikEMartSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCF465E2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwikEMartSwiftUIApp.swift; sourceTree = "<group>"; };
 		EBCF46602A60C9B600FA03B4 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EB53BF112A9ED6EC00515ABA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB53BF122A9ED70500515ABA /* ShoppingCartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		EBCF46522A60C9B600FA03B4 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		EBCF465D2A60C9B600FA03B4 /* KwikEMartSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EB53BF112A9ED6EC00515ABA /* ViewModel */,
 				EB531DBD2A6CB63B006C35A5 /* Model */,
 				EBCF465E2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift */,
 				EBCF46602A60C9B600FA03B4 /* ProductCard.swift */,
@@ -179,6 +190,7 @@
 				EB499E322A831F3E000BA308 /* PhoneView.swift in Sources */,
 				EB499E2E2A831D13000BA308 /* HomeView.swift in Sources */,
 				EB499E302A831F37000BA308 /* TabletView.swift in Sources */,
+				EB53BF132A9ED70500515ABA /* ShoppingCartViewModel.swift in Sources */,
 				EB499E342A8320EE000BA308 /* ShoppingCartView.swift in Sources */,
 				EBCF465F2A60C9B600FA03B4 /* KwikEMartSwiftUIApp.swift in Sources */,
 			);
