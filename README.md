@@ -5,10 +5,10 @@
 In this project, we are going to create a digital cash register app in iOS using SwiftUI.
 En este proyecto vamos a crear una app de caja digital en iOS utilizando SwiftUI.
 
-## Project Challenge Requirements: 
+## Project Challenge Requirements
 [Kwik-E-Mart.pdf](https://github.com/lrnzbr/KwikEMartSwiftUI/files/12655035/Kwik-E-Mart.pdf)
 
-# Video Tutorials: 
+# Video Tutorials
 YouTube Playlist (en español): https://www.youtube.com/playlist?list=PLz0eYGmTFlezxNrDzFtNdQIkBgd0zUnqg
 
 # System Requirements
